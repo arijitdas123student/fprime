@@ -36,7 +36,7 @@ aheared
 ajkl
 allbox
 ALLEXTERNALS
-ALLOCATEDSIZE
+alloc
 Alltypes
 ALOG
 alphanums
@@ -131,6 +131,7 @@ BADCHECKSUM
 BAREMERAL
 baremetal
 BARETASKHANDLE
+baseclass
 basestring
 bashcompinit
 bashrc
@@ -175,7 +176,8 @@ BUFFERACCEPTED
 BUFFERACCUMULATOR
 BUFFERALLOCATE
 BUFFERLOGGER
-BUFFERMANAGER
+BUFFERMANAGERCOMPONENTIMPLCFG
+BUFFERMGR
 BUFFERTOOSMALL
 buffsize
 BUGLIST
@@ -255,7 +257,6 @@ classpath
 classpathentry
 classtype
 clazz
-CLEAREDERRORSTATE
 clearfix
 clibwrapper
 clion
@@ -467,7 +468,6 @@ dll
 dlog
 dnp
 DNs
-doall
 docbook
 dockerfile
 docset
@@ -510,6 +510,11 @@ DROPPEDPACKET
 dropright
 dropup
 drv
+drvipsocket
+drvsocketreadtask
+drvtcpclientsocket
+drvtcpserversocket
+drvudpsocket
 dsdl
 DSKIP
 dspal
@@ -533,7 +538,6 @@ Dxyz
 dylib
 EACCES
 EAGAIN
-eas
 eay
 eb
 EBADF
@@ -775,6 +779,7 @@ getpid
 getquaternion
 getroot
 getsize
+getsockname
 getstate
 getstatus
 gettime
@@ -878,7 +883,6 @@ idl
 idx
 ieeetr
 iface
-ifchange
 ifcomment
 ifconfig
 ifdef
@@ -949,9 +953,12 @@ ior
 iostream
 ip
 ipc
+IPCFG
+IPHELPER
 ipp
 IPPROTO
 ipriority
+IPv
 IRUSR
 IRWXU
 isabs
@@ -1322,7 +1329,6 @@ NSHUFF
 NSPACES
 nukenewlines
 nullptr
-NUMALLOCATEDBUFFERS
 numargs
 Numinput
 NUMLOGGEDBUFFERS
@@ -1458,6 +1464,7 @@ popen
 portlist
 PORTOPENED
 PORTOUT
+PORTSELECTOR
 PORTSEQUENCESTARTED
 PORTSOUT
 posix
@@ -1579,6 +1586,7 @@ RCHILD
 rcs
 Rcv
 rcvd
+RCVTIMEO
 RDONLY
 RDWR
 Readback
@@ -1785,7 +1793,9 @@ SOCKETHELPER
 SOCKETIPDRIVER
 SOCKETIPDRIVERCFG
 SOCKETIPDRIVERTYPES
+SOCKETREADTASK
 socketserver
+socklen
 somechan
 somechanarg
 someenumchan
@@ -1850,7 +1860,6 @@ stdio
 stdlib
 stdout
 stest
-STORESIZEEXCEEDED
 strcat
 strcmp
 strcpy
@@ -1926,6 +1935,8 @@ tcl
 tclist
 tcomp
 tcp
+TCPCLIENT
+TCPHELPER
 tcpserver
 TCSANOW
 tcsetattr
@@ -2037,7 +2048,6 @@ toolbar
 toolchain
 tooltip
 tooltiptext
-TOOMANYBUFFERS
 TOOMANYCOMMANDS
 topologyapp
 Torvalds
@@ -2087,6 +2097,7 @@ UDPRECEIVER
 UDPRECEIVERCOMPONENTIMPLCFG
 UDPSENDER
 UDPSENDERCOMPONENTIMPLCFG
+UDPSOCKET
 uint
 UIs
 uk
